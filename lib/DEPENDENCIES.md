@@ -1,0 +1,64 @@
+# Vendored dependencies
+
+These are ordinary files, with no submodules or install step. Production uses only the
+OpenZeppelin ERC-20 import closure; forge-std is used only by tests.
+Upstream source files are unmodified. Licenses are retained in each library directory.
+Archive and file SHA-256 values below record exactly the content downloaded.
+
+## openzeppelin-contracts v5.4.0
+
+Source archive: https://codeload.github.com/OpenZeppelin/openzeppelin-contracts/tar.gz/refs/tags/v5.4.0
+
+Archive SHA-256: `b89829be48bc501051002191733268a93ef6e238a4bb65d8fd1cbdf3969050d1`
+
+Vendored files (SHA-256):
+
+```text
+13cd784a6c31361f0e0c6aa3b410a1cb9a079868b7314c13e3eb8a75351746b9  openzeppelin-contracts/LICENSE
+df936240c9a5d342582cbda70dd773b1c1d0e0dda3042b1c17b902ef0c36827b  openzeppelin-contracts/contracts/interfaces/draft-IERC6093.sol
+9f906af4cba6e7e091dc12d45e6687e1239cf82d17678198424250fd64ab96bd  openzeppelin-contracts/contracts/token/ERC20/ERC20.sol
+01b6f5c4fa45fd38822b286ecef6daf983d27306dd6362496fa71b3e4600b72c  openzeppelin-contracts/contracts/token/ERC20/IERC20.sol
+0b7132f17d14d1d84b41b0bb429be62dafdff00fd3470f68724d8018eb07f57a  openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol
+847fda5460fee70f56f4200f59b82ae622bb03c79c77e67af010e31b7e2cc5b6  openzeppelin-contracts/contracts/utils/Context.sol
+```
+
+## forge-std v1.9.7
+
+Source archive: https://codeload.github.com/foundry-rs/forge-std/tar.gz/refs/tags/v1.9.7
+
+Archive SHA-256: `45157353ab49eab01d294565866731e599b32401757229689ee459aa26b7ee94`
+
+Vendored files (SHA-256):
+
+```text
+50b6bf8bdb63265ce14953b480b7aaa0271e78f56843b99c184abd3ae5048cd7  forge-std/LICENSE-APACHE
+6d185dfe089d4de346d391fc5997fbd4739bad1d6556010413c10f420d704ecc  forge-std/LICENSE-MIT
+29297a56d2b1692d4439545b93ed62890da7e9e1060c03005b43151af7984bf0  forge-std/src/Base.sol
+69481d9a1b816761680fe82700233d0ecbb85f81f4e2826841664779cbb6f535  forge-std/src/Script.sol
+d4c89eec70d267dec6188461fbc74d3dc8c47e518d176a23417533a232ed9780  forge-std/src/StdAssertions.sol
+09a88ace5bc037f4a805c7ae071abf675ce802c8b36810287cd327b7d035fb81  forge-std/src/StdChains.sol
+29af42f9d670fd22e9fc3ebe3c2da194471e93e210361c41d3d26ef04e9dca28  forge-std/src/StdCheats.sol
+6c785abd2fb9d42560f867d8e43e729c55f5bda2c06e5ddae27b17e301de4f04  forge-std/src/StdConstants.sol
+82ca17e33a03775e95b4612bd604a8732c73b2982a0278d214e06c68a886dc11  forge-std/src/StdError.sol
+f572e991cfe874844b3b75a540e38e2161c29b5d9ab1635a3c4f1a16c548f987  forge-std/src/StdInvariant.sol
+0211b47e93dbeb6a7de6112470a77137038ed73b79b015847f013e49fcd7511f  forge-std/src/StdJson.sol
+f04fc0616741563eb32d66c11af7fdca55a7202221e14282268c7be851fc63ab  forge-std/src/StdMath.sol
+c6dbb05b29be5bcbfabf06ea46b64fe9fbdb7542681795614ca3dee248214215  forge-std/src/StdStorage.sol
+324c2b0e100e88edbdb75f60f8a4c42f056f8d618ae5f56b1c404df64e8280a7  forge-std/src/StdStyle.sol
+de3fb35af79a1fd2a2de9bc4ca7866e4102f9d3fbf11f66f3fe82696412d47e2  forge-std/src/StdToml.sol
+c64a4d5023e6d46884734b8cb1b0f424bab26f0ccc920779b58d2f841c4506ae  forge-std/src/StdUtils.sol
+b1b48a4dfbd65fed186163326dc8870316679f64a195aa18050f83657d2df39c  forge-std/src/Test.sol
+9068805b59ac1d0ea03a8fa1f15ae49c094e0c6c852a2500e0dd112f264b2cb1  forge-std/src/Vm.sol
+896c5a5a5c235cb11a39876d430e1fc2c621e7950c4637ca58251b84b053f178  forge-std/src/console.sol
+3bbe2e07ec53d8cf9c091667fe10234fcb3e2b45eab2c711002188806f46e779  forge-std/src/console2.sol
+d44fde880db31958113ed5b490ed30766f7843137947893506e35b161b959000  forge-std/src/interfaces/IERC1155.sol
+9bdab733bba2df028853aef1f5e06871fb4157d15c3c6a670be13f9b614c193b  forge-std/src/interfaces/IERC165.sol
+283cedb0cf82640370b77b8a42175bc417c69a02d8989ac6d6a99be2157acd4d  forge-std/src/interfaces/IERC20.sol
+6a5115bfcaba28ad7f11d1e3973718683f5bac596f0e567d0a1cd4d3308e98b7  forge-std/src/interfaces/IERC4626.sol
+b42d2ff602839f784bbf1012e124c01e11784b5b08bc828fbc6b151d2477f517  forge-std/src/interfaces/IERC6909.sol
+f6383f58bcf3a0f34717ae4ed5866b78201fd646df2e5eb2b7234d2ea2466ae5  forge-std/src/interfaces/IERC721.sol
+c6a7854c86bf3772a996fd70fc11b84930b03f136e98fce6e8cc36534af1d6c1  forge-std/src/interfaces/IERC7540.sol
+31c45af17a667da7fe1710097cdc1edb6dbae0665f12a361b8632a4be0ead219  forge-std/src/interfaces/IERC7575.sol
+6620d9c5ea2e2291440e1dcce5072f948b7ec4d65075876a0d0ac9267d3342e3  forge-std/src/interfaces/IMulticall3.sol
+ed11aa2efc83fa8e575215a11dd7a9be385cf49dacbc379630168d7334899e46  forge-std/src/safeconsole.sol
+```
